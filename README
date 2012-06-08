@@ -1,0 +1,5 @@
+This is an experimental port of thinjvm to the ARM platform.
+The target board is a Blueboard LPC2148. Some of the code also
+addresses a gameduino board, using SPI - this is optional.
+First build thinj and friends, then build this using build.sh.
+Note that 'alltests.c' is the output from thinj copied into this project.
